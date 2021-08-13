@@ -1,0 +1,3 @@
+D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\Definitions.NetGame.h
+D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame\Player\Controller\PlayerControllerBase.h
+D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\PlayerControllerBase.generated.h

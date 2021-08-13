@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "NetGame",
+			"Path": "D:\\GitHUB\\Unreal\\NetGame\\NetGame\\Source\\NetGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NetGameEditor",
+			"Path": "D:\\GitHUB\\Unreal\\NetGame\\NetGame\\Source\\NetGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

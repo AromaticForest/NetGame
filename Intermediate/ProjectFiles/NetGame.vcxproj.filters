@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NetGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8527AAC4-E668-498C-BE69-32EA744C427D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NetGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NetGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{379082BC-DC91-45DC-842A-01DA136CA71E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NetGame">
+      <UniqueIdentifier>{95E2777B-21A6-4CB5-85D4-A84B7DF4885F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NetGame\NetGame.Build.cs">
+      <Filter>Source\NetGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NetGame\NetGame.cpp">
+      <Filter>Source\NetGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\NetGame.h">
+      <Filter>Source\NetGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\NetGame\NetGameGameModeBase.cpp">
+      <Filter>Source\NetGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\NetGameGameModeBase.h">
+      <Filter>Source\NetGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\NetGame\GameMode">
+      <UniqueIdentifier>{0389CD8D-207C-42CF-8FFA-D7F9CEA621C3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetGame\GameMode\NeGameMode.cpp">
+      <Filter>Source\NetGame\GameMode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\GameMode\NeGameMode.h">
+      <Filter>Source\NetGame\GameMode</Filter>
+    </ClInclude>
+    <Filter Include="Source\NetGame\GameMode\HUD">
+      <UniqueIdentifier>{D88C333E-F7E8-4150-B4FF-07D6FC20B05E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetGame\GameMode\HUD\HUDBase.cpp">
+      <Filter>Source\NetGame\GameMode\HUD</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\GameMode\HUD\HUDBase.h">
+      <Filter>Source\NetGame\GameMode\HUD</Filter>
+    </ClInclude>
+    <Filter Include="Source\NetGame\GameMode\State">
+      <UniqueIdentifier>{393CC254-7104-4D70-8E55-0E32EBD5B4EB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetGame\GameMode\State\NetGameStateBase.cpp">
+      <Filter>Source\NetGame\GameMode\State</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\GameMode\State\NetGameStateBase.h">
+      <Filter>Source\NetGame\GameMode\State</Filter>
+    </ClInclude>
+    <Filter Include="Source\NetGame\Player">
+      <UniqueIdentifier>{E21BAFEF-00A6-4B21-A039-F62A7298AF14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\NetGame\Player\Character">
+      <UniqueIdentifier>{7691DDDF-CCD3-4283-B367-327BDE35AA21}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetGame\Player\Character\CharacterBase.cpp">
+      <Filter>Source\NetGame\Player\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\Player\Character\CharacterBase.h">
+      <Filter>Source\NetGame\Player\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\NetGame\Player\Character\Chat">
+      <UniqueIdentifier>{3B33243C-FF46-4A79-BF4E-4782DE1ED4EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetGame\Player\Character\Chat\Character_Chat.cpp">
+      <Filter>Source\NetGame\Player\Character\Chat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\Player\Character\Chat\Character_Chat.h">
+      <Filter>Source\NetGame\Player\Character\Chat</Filter>
+    </ClInclude>
+    <Filter Include="Source\NetGame\Player\Controller">
+      <UniqueIdentifier>{3691030D-F958-45A6-AFA6-A8E4B6CC3408}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetGame\Player\Controller\PlayerControllerBase.cpp">
+      <Filter>Source\NetGame\Player\Controller</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\Player\Controller\PlayerControllerBase.h">
+      <Filter>Source\NetGame\Player\Controller</Filter>
+    </ClInclude>
+    <Filter Include="Source\NetGame\Player\State">
+      <UniqueIdentifier>{1FE288A0-03CC-41C2-8430-4587077D5C36}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetGame\Player\State\PlayerStateBase.cpp">
+      <Filter>Source\NetGame\Player\State</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\Player\State\PlayerStateBase.h">
+      <Filter>Source\NetGame\Player\State</Filter>
+    </ClInclude>
+    <Filter Include="Source\NetGame\UserWidget">
+      <UniqueIdentifier>{F7524573-2D9D-4B80-8DC3-B937B594FE5A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NetGame\UserWidget\UMG_ChatWindow.cpp">
+      <Filter>Source\NetGame\UserWidget</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\NetGame\UserWidget\UMG_ChatWindow.h">
+      <Filter>Source\NetGame\UserWidget</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
