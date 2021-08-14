@@ -1,12 +1,12 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Character_Chat.h"
 
 #include "Components/EditableTextBox.h"
 #include "Components/TextBlock.h"
 #include "Kismet/GameplayStatics.h"
 #include "NetGame/GameMode/HUD/HUDBase.h"
+#include "NetGame/Player/State/PlayerStateBase.h"
 #define LOCTEXT_NAMESPACE "UMG_Chat"
 
 void ACharacter_Chat::ChatWindow()
@@ -45,11 +45,11 @@ FText ACharacter_Chat::FormateMessageText(const FText& Intext)
 			FText PlayerName, PlayerGroup;
 			///
 			///Get PlayerState  On Sever!!!
-			/*if (APlayerStateBase* PlayerState =UGameplayStatics::GetPlayerController(GetWorld(),0)->GetPlayerState<APlayerStateBase>())
+			if (APlayerStateBase* PS = GetPlayerState<APlayerStateBase>())
 			{
-				PlayerGroup = FText::FromString(PlayerState->GetPlayerGroup());
-				PlayerName = FText::FromString(PlayerState->GetPlayerName());
-			}*/
+				PlayerGroup = FText::FromString(PS->GetPlayerGroup());
+				PlayerName = FText::FromString(PS->GetPlayerName());
+			}
 			FText Message = FText::Format(
 				LOCTEXT("UMG_Chat", "[{0}][{1}] {2}:{3}"),
 				FText::FromString(HUD->GetChatWindow()->MessageChanal->GetSelectedOption()), PlayerGroup,

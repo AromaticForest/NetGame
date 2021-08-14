@@ -14,6 +14,7 @@
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\CharacterBase.cpp.obj"
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\PlayerControllerBase.cpp.obj"
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\PlayerStateBase.cpp.obj"
+"D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\UMG_ChatWindow.cpp.obj"
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\NetGame.cpp.obj"
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\NetGameGameModeBase.cpp.obj"
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\CharacterBase.gen.cpp.obj"
@@ -25,6 +26,7 @@
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\NetGameStateBase.gen.cpp.obj"
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\PlayerControllerBase.gen.cpp.obj"
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\PlayerStateBase.gen.cpp.obj"
+"D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\UMG_ChatWindow.gen.cpp.obj"
 "D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\Default.rc2.res"
 /OUT:"D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Development\NetGame\UE4Editor-NetGame.lib"
 /INCLUDE:IMPLEMENT_MODULE_NetGame
