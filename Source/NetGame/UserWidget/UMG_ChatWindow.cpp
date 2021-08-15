@@ -12,6 +12,10 @@ void UUMG_ChatWindow::NativeConstruct()
 	TextInput->OnTextCommitted.AddDynamic(this, &UUMG_ChatWindow::OnTextCommit);
 }
 
+UUMG_ChatWindow::UUMG_ChatWindow(const FObjectInitializer& ObjectInitializer):Super(ObjectInitializer)
+{
+}
+
 void UUMG_ChatWindow::OnTextCommit(const FText& InText, ETextCommit::Type CommitType)
 {
 	if (CommitType == ETextCommit::OnEnter)

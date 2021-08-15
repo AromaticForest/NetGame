@@ -122,6 +122,7 @@ void EmptyLinkFunctionForGeneratedCodeUMG_ChatWindow() {}
 		{ "Comment", "/**\n * \n */" },
 		{ "IncludePath", "UserWidget/UMG_ChatWindow.h" },
 		{ "ModuleRelativePath", "UserWidget/UMG_ChatWindow.h" },
+		{ "ObjectInitializerConstructorDeclared", "" },
 	};
 #endif
 #if WITH_METADATA
@@ -180,7 +181,7 @@ void EmptyLinkFunctionForGeneratedCodeUMG_ChatWindow() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UUMG_ChatWindow, 715935329);
+	IMPLEMENT_CLASS(UUMG_ChatWindow, 2645270897);
 	template<> NETGAME_API UClass* StaticClass<UUMG_ChatWindow>()
 	{
 		return UUMG_ChatWindow::StaticClass();
