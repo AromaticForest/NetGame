@@ -8,15 +8,45 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+enum class EChatChanal : uint8;
 #ifdef NETGAME_PlayerControllerBase_generated_h
 #error "PlayerControllerBase.generated.h already included, missing '#pragma once' in PlayerControllerBase.h"
 #endif
 #define NETGAME_PlayerControllerBase_generated_h
 
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_SPARSE_DATA
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_RPC_WRAPPERS
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_INCLASS_NO_PURE_DECLS \
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_SPARSE_DATA
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_RPC_WRAPPERS \
+	virtual bool Server_SendMessage_Validate(FText const& , EChatChanal ); \
+	virtual void Server_SendMessage_Implementation(FText const& Message, EChatChanal Chanal); \
+	virtual void Client_ReceiveMessage_Implementation(FText const& Text); \
+ \
+	DECLARE_FUNCTION(execServer_SendMessage); \
+	DECLARE_FUNCTION(execClient_ReceiveMessage);
+
+
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual bool Server_SendMessage_Validate(FText const& , EChatChanal ); \
+	virtual void Server_SendMessage_Implementation(FText const& Message, EChatChanal Chanal); \
+	virtual void Client_ReceiveMessage_Implementation(FText const& Text); \
+ \
+	DECLARE_FUNCTION(execServer_SendMessage); \
+	DECLARE_FUNCTION(execClient_ReceiveMessage);
+
+
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_EVENT_PARMS \
+	struct PlayerControllerBase_eventClient_ReceiveMessage_Parms \
+	{ \
+		FText Text; \
+	}; \
+	struct PlayerControllerBase_eventServer_SendMessage_Parms \
+	{ \
+		FText Message; \
+		EChatChanal Chanal; \
+	};
+
+
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_CALLBACK_WRAPPERS
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerControllerBase(); \
 	friend struct Z_Construct_UClass_APlayerControllerBase_Statics; \
@@ -25,7 +55,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerControllerBase)
 
 
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_INCLASS \
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlayerControllerBase(); \
 	friend struct Z_Construct_UClass_APlayerControllerBase_Statics; \
@@ -34,7 +64,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerControllerBase)
 
 
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_STANDARD_CONSTRUCTORS \
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerControllerBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerControllerBase) \
@@ -47,7 +77,7 @@ private: \
 public:
 
 
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_ENHANCED_CONSTRUCTORS \
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerControllerBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +90,33 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerControllerBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerControllerBase)
 
 
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_12_PROLOG
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_GENERATED_BODY_LEGACY \
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_PRIVATE_PROPERTY_OFFSET
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_14_PROLOG \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_EVENT_PARMS
+
+
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_SPARSE_DATA \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_RPC_WRAPPERS \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_INCLASS \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_STANDARD_CONSTRUCTORS \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_PRIVATE_PROPERTY_OFFSET \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_SPARSE_DATA \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_RPC_WRAPPERS \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_CALLBACK_WRAPPERS \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_INCLASS \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_GENERATED_BODY \
+#define NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_SPARSE_DATA \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_INCLASS_NO_PURE_DECLS \
-	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_15_ENHANCED_CONSTRUCTORS \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_PRIVATE_PROPERTY_OFFSET \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_SPARSE_DATA \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_CALLBACK_WRAPPERS \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_INCLASS_NO_PURE_DECLS \
+	NetGame_Source_NetGame_Player_Controller_PlayerControllerBase_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

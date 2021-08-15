@@ -13,4 +13,5 @@ UCLASS()
 class NETGAME_API ANeGameMode : public AGameMode
 {
 	GENERATED_BODY()
+	
 };

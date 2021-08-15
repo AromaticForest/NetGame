@@ -123,14 +123,6 @@ E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/ComboBoxString.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ComboBoxString.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/ScrollBox.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBox.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/PanelWidget.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/PanelSlot.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelSlot.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelWidget.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ScrollBox.generated.h
+D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/NetGame.h
 D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\UMG_ChatWindow.generated.h
 D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\HUDBase.generated.h

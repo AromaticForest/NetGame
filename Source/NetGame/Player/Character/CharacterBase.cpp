@@ -40,6 +40,7 @@ void ACharacterBase::BindInput(UInputComponent* PlayerInput)
 
 void ACharacterBase::MoveForeward(float value)
 {
+	
 	AddMovementInput(GetActorForwardVector(), value);
 }
 
@@ -65,10 +66,13 @@ void ACharacterBase::DoJump()
 
 void ACharacterBase::Fire()
 {
+	//play Animon montage
+	
 }
 
 void ACharacterBase::Aim()
 {
+	//play Animon montage
 }
 
 void ACharacterBase::DoCrouch()

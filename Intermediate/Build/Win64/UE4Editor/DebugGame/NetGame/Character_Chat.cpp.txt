@@ -7,24 +7,6 @@ E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootM
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\CharacterBase.generated.h
 D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\Character_Chat.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/EditableTextBox.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/Widget.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/Visual.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetNavigation.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetNavigation.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/ISlateEditableTextWidget.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\EditableTextBox.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/TextBlock.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextBlock.generated.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
@@ -44,6 +26,17 @@ E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Debug
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
 D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/UserWidget/UMG_ChatWindow.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/Widget.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Slate/WidgetTransform.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetTransform.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetNavigation.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\SlateCore\Public\Types/NavigationMetaData.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetNavigation.generated.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widget.generated.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/NamedSlotInterface.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\NamedSlotInterface.generated.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/Anchors.h
@@ -149,18 +142,12 @@ E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/ComboBoxString.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ComboBoxString.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/ScrollBox.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBox.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/PanelWidget.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/PanelSlot.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelSlot.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelWidget.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ScrollBox.generated.h
+D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/NetGame.h
 D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\UMG_ChatWindow.generated.h
 D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\HUDBase.generated.h
-D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/Player/State/PlayerStateBase.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerState.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerState.generated.h
-D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\PlayerStateBase.generated.h
+D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/Player/Controller/PlayerControllerBase.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/TextBlock.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextBlock.generated.h
+D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\PlayerControllerBase.generated.h

@@ -117,37 +117,16 @@ E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyPath
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/ComboBoxString.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ComboBoxString.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/ScrollBox.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBox.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/PanelWidget.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/PanelSlot.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelSlot.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelWidget.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ScrollBox.generated.h
+D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/NetGame.h
 D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\UMG_ChatWindow.generated.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/EditableTextBox.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
 E:\Epic Games\UE_4.25\Engine\Source\Runtime\Slate\Public\Widgets/Text/ISlateEditableTextWidget.h
 E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\EditableTextBox.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
-D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/Player/Character/Chat/Character_Chat.h
-D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/Player/Character/CharacterBase.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\Epic Games\UE_4.25\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\CharacterBase.generated.h
-D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\Character_Chat.generated.h
+D:\GitHUB\Unreal\NetGame\NetGame\Source\NetGame/Player/Controller/PlayerControllerBase.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/TextBlock.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextBlock.generated.h
+D:\GitHUB\Unreal\NetGame\NetGame\Intermediate\Build\Win64\UE4Editor\Inc\NetGame\PlayerControllerBase.generated.h
+E:\Epic Games\UE_4.25\Engine\Source\Runtime\UMG\Public\Components/ComboBoxString.h
+E:\Epic Games\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ComboBoxString.generated.h

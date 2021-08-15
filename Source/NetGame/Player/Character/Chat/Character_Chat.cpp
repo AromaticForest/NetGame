@@ -1,17 +1,14 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Character_Chat.h"
-
-#include "Components/EditableTextBox.h"
-#include "Components/TextBlock.h"
 #include "Kismet/GameplayStatics.h"
 #include "NetGame/GameMode/HUD/HUDBase.h"
-#include "NetGame/Player/State/PlayerStateBase.h"
-#define LOCTEXT_NAMESPACE "UMG_Chat"
+#include "NetGame/Player/Controller/PlayerControllerBase.h"
+
 
 void ACharacter_Chat::ChatWindow()
 {
-	if (APlayerController* PC = Cast<APlayerController>(GetWorld()->GetFirstPlayerController()))
+	if (APlayerControllerBase* PC = Cast<APlayerControllerBase>(GetWorld()->GetFirstPlayerController()))
 	{
 		if (AHUDBase* HUD = Cast<AHUDBase>(PC->GetHUD()))
 		{
@@ -24,7 +21,7 @@ void ACharacter_Chat::ChatWindow()
 			{
 				if (HUD->GetChatWindow()->IsInViewport())
 				{
-					HUD->GetChatWindow()->RemoveFromParent();
+					HUD->GetChatWindow()->RemoveFromViewport();
 				}
 				else
 				{
@@ -35,87 +32,3 @@ void ACharacter_Chat::ChatWindow()
 		}
 	}
 }
-
-FText ACharacter_Chat::FormateMessageText(const FText& Intext)
-{
-	if (APlayerController* PC = Cast<APlayerController>(GetWorld()->GetFirstPlayerController()))
-	{
-		if (AHUDBase* HUD = Cast<AHUDBase>(PC->GetHUD()))
-		{
-			FText PlayerName, PlayerGroup;
-			///
-			///Get PlayerState  On Sever!!!
-			if (APlayerStateBase* PS = GetPlayerState<APlayerStateBase>())
-			{
-				PlayerGroup = FText::FromString(PS->GetPlayerGroup());
-				PlayerName = FText::FromString(PS->GetPlayerName());
-			}
-			FText Message = FText::Format(
-				LOCTEXT("UMG_Chat", "[{0}][{1}] {2}:{3}"),
-				FText::FromString(HUD->GetChatWindow()->MessageChanal->GetSelectedOption()), PlayerGroup,
-				PlayerName, Intext);
-			return Message;
-		}
-	}
-	return Intext;
-}
-
-void ACharacter_Chat::SetTextColorByChanal(UTextBlock* MessageText)
-{
-	if (APlayerController* PC = Cast<APlayerController>(GetWorld()->GetFirstPlayerController()))
-	{
-		if (AHUDBase* HUD = Cast<AHUDBase>(PC->GetHUD()))
-		{
-			FSlateColor InColor(FLinearColor(1.0f, 0.0f, 1.0f));
-			switch (HUD->GetChatWindow()->MessageChanal->GetSelectedIndex())
-			{
-			default:
-			case 0:
-				MessageText->SetColorAndOpacity(FLinearColor(1.0f, 0.0f, 1.0f));
-				break;
-			case 1: MessageText->SetColorAndOpacity(FLinearColor(0.0f, 1.0f, 1.0f));
-				break;
-			case 2: MessageText->SetColorAndOpacity(FLinearColor(1.0f, 1.0f, 0.0f));
-				break;
-			}
-		}
-	}
-}
-
-void ACharacter_Chat::SendMessage(const FText& Message)
-{
-	if (HasAuthority())
-	{
-		Multi_SendMessage(Message);
-	}
-	else
-	{
-		Sever_SendMessage(Message);
-	}
-}
-
-void ACharacter_Chat::Sever_SendMessage_Implementation(const FText& Message)
-{
-	Multi_SendMessage(Message);
-}
-
-bool ACharacter_Chat::Sever_SendMessage_Validate(const FText& Message)
-{
-	return true;
-}
-
-void ACharacter_Chat::Multi_SendMessage_Implementation(const FText& Message)
-{
-	if (APlayerController* PC = Cast<APlayerController>(GetWorld()->GetFirstPlayerController()))
-	{
-		if (AHUDBase* HUD = Cast<AHUDBase>(PC->GetHUD()))
-		{
-			UTextBlock* MessageText = NewObject<UTextBlock>();
-			SetTextColorByChanal(MessageText);
-			MessageText->SetText(FormateMessageText(Message));
-			HUD->GetChatWindow()->MessageScrollBox->AddChild(MessageText);
-			HUD->GetChatWindow()->TextInput->SetText(FText());
-		}
-	}
-}
-#undef LOCTEXT_NAMESPACE
